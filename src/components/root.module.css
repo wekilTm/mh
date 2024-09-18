@@ -1,0 +1,127 @@
+.root {
+  width: 400%;
+  height: 100%;
+  position: fixed;
+  top: 35px;
+  left: 0%;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  transition: left 0.5s;
+}
+
+.root__block {
+  width: 25%;
+  padding: 45px 10px 100px 10px;
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* width */
+  /* Track */
+  /* Handle */
+}
+.root__block::-webkit-scrollbar {
+  width: 4px;
+}
+.root__block::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.root__block::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: #00c5e0;
+}
+.root__block_title {
+  text-align: center;
+}
+
+.bottomNav {
+  width: 100%;
+  height: 70px;
+  background-color: #2e47ae;
+  color: aliceblue;
+  border-top-left-radius: 35px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottomNav > button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.bottomNav__title {
+  font-weight: normal;
+  color: white;
+}
+
+.bottomNav__svg {
+  position: fixed;
+  right: 0;
+  bottom: 69px;
+  width: 70px;
+  height: 70px;
+  transform: rotate(180deg);
+}
+.bottomNav__svg_path {
+  fill: #2e47ae;
+  left: 0;
+}
+
+.dayTitle {
+  font-size: 18px;
+}
+
+.lesson {
+  font-size: 22px;
+}
+
+.type {
+  color: #6d929b;
+}
+
+.teacher {
+  color: #2e47ae;
+}
+
+.auditory {
+  padding: 2px;
+  width: 180px;
+  margin-top: 10px;
+  border-radius: 18px;
+  background-color: #00c5e0;
+  color: white;
+}
+
+.Time {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #2e47ae;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.Time__block {
+  margin: 5px 0;
+  display: flex;
+  flex-flow: row;
+}
+.Time__title {
+  margin-right: 20px;
+  font-weight: 500;
+  color: white;
+}
+.Time__time {
+  padding: 4px 8px;
+  border-radius: 14.5px;
+  color: white;
+  background-color: #4466d1;
+  font-weight: 400;
+} /*# sourceMappingURL=root.module.css.map */
